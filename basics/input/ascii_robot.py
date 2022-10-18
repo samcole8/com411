@@ -1,0 +1,11 @@
+# Display a box
+asciiEye = input("Please enter a character for the eye\n")
+print("Beep's expression is now as follows:")
+print(" ########")
+print(f" # {asciiEye}  {asciiEye} #")
+print(" #  __  #")
+print(" ########")
+print("##########")
+print("#        #")
+print("#        #")
+print("##########")
