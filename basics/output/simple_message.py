@@ -1,2 +1,2 @@
-# Outputs a simple message
+# Display message
 print("System Failure Imminent!")
