@@ -2,7 +2,6 @@
 
 def identify():
     """Example if statement"""
-    
     seen = input("What lies before us? \n")
     if seen == "a large boulder":
         print("\nIt's time to run!")
