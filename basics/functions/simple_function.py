@@ -2,6 +2,7 @@
 
 def listen():
     """Example code"""
+    
     onomatopoeia = input("Enter an onomatopoeic word:\n")
     print(f"That was a loud {onomatopoeia}!")
 
