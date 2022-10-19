@@ -1,17 +1,18 @@
 """
-Script to calculate the distance between two characters
-NEEDS WORK
+Awful, overcomplicated script to calculate the distance between two unique
+identical characters in a given string.
 """
 
-sequence = input("Please enter a sequence:\n")
-marker = input("Please enter the marker character\n")
-index_1 = 0
-index_2 = 0
-for index in range(0, len(sequence)):
-    if (sequence[index] == marker):
-        if index_1 == 0:
-            index_1 = index
-        else:
-            index_2 = index
-print(f"\nThe markers are {(index_2 - index_1 - 1)} characters apart.")
+# Take input for string and marker characters
+string = input("Please enter a sequence\n")
+marker = input("Please enter the character for the marker\n")
+# Initialise count to count distance
+count = 0
 
+for character_index in range(0, len(string)):
+    if string[character_index] == marker:
+        for nested_character_index in range((character_index + 1), len(string)):
+            if string[nested_character_index] == marker:
+                print(f"\nThe distance between the markers is {count}.")
+            else:
+                count += 1
