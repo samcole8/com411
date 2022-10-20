@@ -4,7 +4,7 @@
 def cross_bridge(distance_crossed):
     """ Simple for loop inside of a functiion
     """
-    for i in range(0, distance_crossed):
+    for i in range(0, distance_crossed): #pylint: disable=unused-variable
         print("Crossed step.")
     if distance_crossed > 5:
         print("The bridge is collapsing!")
