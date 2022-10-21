@@ -1,6 +1,4 @@
-"""
-Demonstrates multiple nested if statements
-"""
+"""Demonstrates multiple nested if statements."""
 
 user_input = input("Where should I look?\n")
 if user_input == "in the bedroom":

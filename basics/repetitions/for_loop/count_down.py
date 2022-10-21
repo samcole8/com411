@@ -1,6 +1,4 @@
-"""
-Example script to count down using a for loop
-"""
+"""Example script to count down using a for loop."""
 
 step_number = int(input("How many steps until we reach the cave?\n"))
 print()

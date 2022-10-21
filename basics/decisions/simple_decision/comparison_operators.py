@@ -1,6 +1,4 @@
-"""
-Use comparison operators to determine which number is greater.
-"""
+"""Use comparison operators to determine which number is greater."""
 
 number_one = input("Please enter the first number:\n")
 number_two = input("Please enter the second number:\n")

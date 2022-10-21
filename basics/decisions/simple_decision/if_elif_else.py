@@ -1,6 +1,4 @@
-"""
-Simple if/elif/else statement
-"""
+"""Simple if/elif/else statement."""
 
 direction = input("In which direction should I paint?\n")
 if direction == "up":

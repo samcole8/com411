@@ -1,4 +1,6 @@
-# Display a box
+"""Program to display ASCII robot."""
+
+#  Display a box
 print(" ########")
 print(" # O  O #")
 print(" #  __  #")

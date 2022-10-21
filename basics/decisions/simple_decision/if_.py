@@ -1,6 +1,4 @@
-"""
-Simple if statement
-"""
+"""Simple if statement."""
 
 type_of_book = input("What type of book is this?\n")
 if type_of_book == "adventure":

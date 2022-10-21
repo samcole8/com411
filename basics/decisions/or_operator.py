@@ -1,6 +1,4 @@
-"""
-Demonstrates use of logical or operator
-"""
+"""Demonstrates use of logical or operator."""
 
 type_of_adventure = input("")
 if (type_of_adventure == "scary") or (type_of_adventure == "short"):

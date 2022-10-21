@@ -2,7 +2,7 @@
 
 
 def menu():
-    """Display menu and choose function"""
+    """Display menu and choose function."""
     # Take input for word
     word = input("Please enter a word: \n")
     # Display menu
@@ -31,7 +31,7 @@ def menu():
 
 
 def display_in_a_box(word):
-    """Display word in ASCII art box"""
+    """Display word in ASCII art box."""
     # Construct box top and side
     box_top = ("###" + ("#" * len(word)) + "###")
     box_side = ("#  " + (" " * len(word)) + "  #")
@@ -67,7 +67,7 @@ def display_repeat(word):
     """Output word repeated x times."""
     repetitions = int(input("How many times should the word repeat?\n"))
     print()
-    for _i in range (0, repetitions):
+    for _i in range(0, repetitions):
         print(word)
 
 

@@ -1,6 +1,4 @@
-"""
-Example script using a for loop to break down a string into characters
-"""
+"""Example script using a for loop to break down a string into characters."""
 
 characters = input("What strange characters do you see?\n")
 print("Identifying...\n")

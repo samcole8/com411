@@ -1,4 +1,1 @@
-
-
-# Not implemented
-
+"""Not implemented."""

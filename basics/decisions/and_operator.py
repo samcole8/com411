@@ -1,6 +1,4 @@
-"""
-Demonstrates use of logical and operator
-"""
+"""Demonstrates use of logical and operator."""
 
 heard = input("What did I hear?\n")
 seen = input("\nWhat did I see?\n")

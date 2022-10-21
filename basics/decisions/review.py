@@ -1,3 +1,1 @@
-"""
-Not implemented
-"""
+"""Not implemented."""

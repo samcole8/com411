@@ -1,11 +1,8 @@
 {
+    "python.formatting.provider": "autopep8",
     "python.linting.pylintEnabled": true,
     "python.linting.enabled": true,
     "python.autoComplete.extraPaths": [],
-<<<<<<< HEAD
-    "python.linting.flake8Enabled": false,
+    "python.linting.pydocstyleEnabled": true,
+    "python.linting.flake8Enabled": true
 }
-=======
-    "python.linting.flake8Enabled": false
-}
->>>>>>> 1bd236ac29f5b18874f24dcd812cd68b68b5ab79

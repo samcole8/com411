@@ -1,6 +1,4 @@
-"""
-Take inputs from user and calculate BMI
-"""
+"""Take inputs from user and calculate BMI."""
 
 # Take inputs for display later
 name = input("What is your name human?\n")
@@ -11,6 +9,6 @@ weight = float(input("\nHow much do you weigh (in kilograms)?\n"))
 
 # Calculate BMI based on previous inputs
 BMI = (weight
-        / (height ** 2))
+       / (height ** 2))
 # Output string
 print(f"{name} you are {age} years old and your BMI is {BMI}.")

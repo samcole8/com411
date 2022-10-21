@@ -1,6 +1,4 @@
-"""
-Use modulo operator to determine whether a number is odd or even.
-"""
+"""Use modulo operator to determine whether a number is odd or even."""
 
 number = int(input("Please enter a whole number:\n"))
 if (number % 2) == 0:

@@ -1,4 +1,4 @@
-
+"""Take inputs and output concatenated string."""
 
 # Take inputs for each variable
 number_of_lives = int(input("Please enter the number of lives.\n"))
@@ -14,4 +14,3 @@ shield_string = "♦" * shield_level
 print(f"Lives: {lives_string}")
 print(f"Energy: {energy_string}")
 print(f"Shield: {shield_string}")
-

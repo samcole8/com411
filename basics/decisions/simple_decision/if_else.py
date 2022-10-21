@@ -1,6 +1,4 @@
-"""
-Simple if/else statement
-"""
+"""Simple if/else statement."""
 
 user_input = input("Please enter the activity to be performed.\n")
 if user_input == "calculate":

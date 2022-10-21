@@ -1,6 +1,4 @@
-"""
-Example script showing for loop counting in twos
-"""
+"""Example script showing for loop counting in twos."""
 
 req_brightness = int(input("What level of brightness is required?\n"))
 print("Adjusting brightness...\n")
