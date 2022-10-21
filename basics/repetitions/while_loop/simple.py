@@ -1,6 +1,4 @@
-"""
-Demonstrates simple while loop
-"""
+"""Demonstrates simple while loop."""
 
 number_of_cables = int(input("How many cables should I remove?\n"))
 print()
