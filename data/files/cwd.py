@@ -14,6 +14,7 @@ def cwd():
 
 def run():
     """Run the program."""
+    print("Processing...")
     cwd()
 
 
