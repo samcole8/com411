@@ -38,7 +38,18 @@ def display_passenger_names():
     """Display passenger names from records."""
     print("The names of the passengers are:")
     for record in records:
-        print(record[2])
+        print(record[3])
+    input("\nPress ENTER to return to menu.")
+
+
+def display_num_survivors():
+    """Display number of survivors from records."""
+    count = 0
+    for record in records:
+        if record[1] == "1":
+            count = count + 1
+    print(f"{count} passengers survived.")
+    input("\nPress ENTER to return to menu.")
 
 
 def run():
@@ -46,8 +57,11 @@ def run():
     load_data("/home/sam/mygit/com411/data/titanic/titanic.csv")
     # Menu choice
     while True:
-        if display_menu() == 1:
+        choice = display_menu()
+        if choice == 1:
             display_passenger_names()
+        elif choice == 2:
+            display_num_survivors()
         else:
             print("Error: No corresponding function.\n")
 
