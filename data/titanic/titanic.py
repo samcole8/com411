@@ -76,7 +76,7 @@ def display_passengers_per_age_group():
             pass
         elif float(record[5]) < 18:
             children += 1
-        elif float(record[5]) > 65:
+        elif float(record[5]) < 65:
             elderly += 1
         else:
             adults += 1
@@ -99,7 +99,7 @@ def display_survivors_per_age_group():
             if record[1] == "1":
                 children_s += 1
             children += 1
-        elif float(record[5]) > 65:
+        elif float(record[5]) < 65:
             if record[1] == "1":
                 adults_s += 1
             adults += 1
