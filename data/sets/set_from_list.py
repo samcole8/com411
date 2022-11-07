@@ -6,7 +6,7 @@ def observed():
     observations = []
     # Create list from user input
     for _i in range(7):
-        user_input = int(input("Please enter an observation:  "))
+        user_input = input("Please enter an observation:  ")
         observations.append(user_input)
     return observations
 
