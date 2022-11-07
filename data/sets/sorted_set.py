@@ -1,4 +1,4 @@
-"""Docstring."""
+"""Code demonstrating how to sort a set."""
 
 
 def observed():
@@ -42,6 +42,7 @@ def run():
         observation_set.add((value, value_count))
     # Output contents of set
     print("Observations:")
+    observation_set = sorted(observation_set)
     for value in observation_set:
         print(f"{value[0]} was observed {value[1]} times.")
 
