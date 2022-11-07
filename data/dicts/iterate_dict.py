@@ -1,4 +1,4 @@
-"""Create dictionary."""
+"""Create dictionary and variably iterate through."""
 
 
 def pattern():
@@ -7,9 +7,30 @@ def pattern():
     return sequences
 
 
+def display_keys(my_dictionary):
+    """Iterate through and display keys from a dictionary."""
+    for key in my_dictionary.keys():
+        print(key)
+
+
+def display_values(my_dictionary):
+    """Iterate through and display values from a dictionary."""
+    for value in my_dictionary.values():
+        print(value)
+
+
+def display_items(my_dictionary):
+    """Iterate through and display keys and values from a dictionary."""
+    for key, value in my_dictionary.items():
+        print(f"{key}: {value}")
+
+
 def run():
     """Run the program."""
-    print(pattern())
+    sequences = pattern()
+    display_keys(sequences)
+    display_values(sequences)
+    display_items(sequences)
 
 
 if __name__ == "__main__":
