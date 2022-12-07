@@ -77,9 +77,9 @@ def display_passengers_per_age_group():
         elif float(record[5]) < 18:
             children += 1
         elif float(record[5]) < 65:
-            elderly += 1
-        else:
             adults += 1
+        else:
+            elderly += 1
     print(f"Children: {children}, adults: {adults}, elderly: {elderly}")
     input("\nPress ENTER to return to menu.")
 

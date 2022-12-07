@@ -1,10 +1,8 @@
-"""Call a function passing a parameter
-"""
+"""Call a function passing a parameter."""
 
 
 def escape_by(plan):
-    """Output a string based on the parameter
-    """
+    """Output a string based on the parameter."""
     if plan == "jumping over":
         print("We cannot escape that way! The boulder is too big!")
     elif plan == "running around":
